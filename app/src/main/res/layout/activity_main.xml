@@ -1,0 +1,151 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#ffffff"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="3"
+        android:orientation="horizontal">
+
+
+        <SurfaceView
+            android:id="@+id/surfaceView"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="2"
+            android:gravity="center" />
+        <!--<ImageView-->
+        <!--android:id="@+id/video_play1"-->
+        <!--android:layout_width="0dp"-->
+        <!--android:layout_height="match_parent"-->
+        <!--android:layout_weight="2"-->
+        <!--android:gravity="center"-->
+        <!--android:background="@drawable/back1"/>-->
+        <View
+            android:layout_width="0.5dp"
+            android:layout_height="match_parent"
+            android:background="#c6c6c6" />
+
+        <FrameLayout
+            android:id="@+id/fram_main"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"></FrameLayout>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="2"
+        android:orientation="horizontal">
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="1"
+                android:background="#FF99CB"
+                android:gravity="center"
+                android:text="纸币口"
+                android:textSize="40sp" />
+
+            <FrameLayout
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="2">
+
+                <TextView
+                    android:id="@+id/zhibikou1"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:background="#CDFFCC"
+                    android:gravity="center"
+                    android:text="0.0元"
+                    android:textSize="80sp" />
+
+                <TextView
+                    android:id="@+id/tv_version_main_activity"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="bottom"
+                    android:text="v 1.2.3"
+                    android:textColor="#CDDDAA"
+                    android:textSize="10sp" />
+            </FrameLayout>
+
+        </LinearLayout>
+
+        <View
+            android:layout_width="0.3dp"
+            android:layout_height="match_parent"
+            android:background="#c6c6c6" />
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="1"
+                android:background="#FFFF66"
+                android:gravity="center"
+                android:text="硬币口"
+                android:textSize="40sp" />
+
+            <TextView
+                android:id="@+id/yingbikou1"
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="2"
+                android:background="#CDFFCC"
+                android:gravity="center"
+                android:text="0.0元"
+                android:textSize="80sp" />
+        </LinearLayout>
+
+        <View
+            android:layout_width="0.3dp"
+            android:layout_height="match_parent"
+            android:background="#c6c6c6" />
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="1"
+                android:background="#FF99CB"
+                android:gravity="center"
+                android:text="纸币口"
+                android:textSize="40sp" />
+
+            <TextView
+                android:id="@+id/zhibikou2"
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="2"
+                android:background="#CDFFCC"
+                android:gravity="center"
+                android:text="0.0元"
+                android:textSize="80sp" />
+        </LinearLayout>
+    </LinearLayout>
+
+
+</LinearLayout>

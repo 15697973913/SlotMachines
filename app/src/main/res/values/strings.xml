@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">纸币投币机</string>
+    <string name="action_settings">Settings</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="scan_tips">将二维码图片对准扫描框即可自动扫描</string>
+   <!--    网页请求的URL      -->
+    <string name="app_url">http://120.203.64.131:8081/</string>
+    <!--    安装包请求的URL      -->
+    <string name="install_app_url">http://01.azrj2-phone.xiazai39.com:8090/quweiduanzi_yxdown.com.apk</string>
+    <string name="video_url">http://192.168.1.110:8080/video/san1.mp4</string>
+    <string name="version">v %s </string>
+    <string name="dialog_card_tip">打卡提示</string>
+    <string name="dialog_card_tip_name">姓名：%s</string>
+    <string name="dialog_card_tip_success">签到成功！</string>
+
+    <string name="scan_default">扫描成功等待支付</string>
+    <string name="play_success">支付成功</string>
+    <string name="play_fail">支付失败</string>
+    <string name="NetWork_status_tip">网络错误，请检查网络设置</string>
+
+
+    <!--coin-->
+    <string name="coin_fail">收到钱币为疑币</string>
+
+
+
+</resources>
